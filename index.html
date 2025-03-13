@@ -12,6 +12,17 @@
             color: black;
             margin: 40px;
         }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            margin: 20px 0;
+        }
+        video {
+            max-width: 100%;
+            border-radius: 10px;
+        }
   h1, h2,p {
           text-align: center;
         }
@@ -33,10 +44,12 @@
   </head>
 <h1>OPS Plan Overview</h1>
 <h2>Introduction</h2>
- <video width="640" height="360" controls autoplay>
-    <source src="My video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+ <div class="video-container">
+        <video width="320" height="560" controls autoplay>
+            <source src="My video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 <p>Help Desk Supervisor | IT Support Leader</p>
 <h2>Reason for Plan</h2>
 <p>Help Desk Operations Plan for the upcoming fiscal year.  
